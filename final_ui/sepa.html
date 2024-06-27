@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact Analysis</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div>
+        <h1 class="Main-heading"> Impact Analysis</h1>
+    </div>
+    <div class="container">
+        <div class="chart-section" id="chartSection">
+                <div class="slider">
+                    <div class="slide"><img src="pie_chart 1.png" alt="Image 1" style="margin-left: 20px;"></div>
+                    <div class="slide"><img src="bar_graph 1.png" alt="Image 2" style="margin-left: 40px;"></div>
+                    <div class="slide"><img src="Screenshot (39).png" alt="Image 3" style="margin-left: 70px;"></div>
+                </div>
+                <button class="prev" onclick="prevSlide()">❮</button>
+                <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+        <div class="general-considerations">
+            <h4 class="general">GENERAL CONSIDERATIONS</h4>
+            <ul>
+                <li>Migration to the 2019 message version of the ISO 20022 standard.</li>
+                <li>Identification/Organisation Identification:
+                    SEPA Usage Rule updated to allow either 'AnyBIC or BEI', 'LEI' or one occurrence of 'Other'.</li>
+                <li>Possibility to provide a structured address of the payment end-user:
+                    Changes to 'Debtor/Postal Address' and 'Creditor/Postal Address' including sub-elements being shaded yellow and new SEPA Usage Rules for both:
+                    <ul>
+                        <li>If 'Address Line' is used, then sub-elements other than 'Country' are forbidden.</li>
+                        <li>A combination of 'Address Line' and 'Country' is allowed (with recommendations depending on EEA/non-EEA location of Debtor/Creditor Agents).</li>
+                        <li>If 'Address Line' is not used, then at least 'Town Name' and 'Country' must be used.</li>
+                    </ul>
+                </li>
+                <li>'Debtor Account' and 'Creditor Account':
+                    New optional sub-element 'Proxy' added with associated attributes.</li>
+                <li>'Assigner/Assignee':
+                    'LEI' can be used in addition to 'Name' to indicate a CSM when it has no BIC.</li>
+                <li>'Remittance Information/Unstructured':
+                    New SEPA Usage Rule added regarding providing commercial trade name, location, date and time if different from legal name and address.</li>
+            </ul>
+        </div>
+
+    </div>
+
+        <div class="button1">
+            <!-- <a href="comparison_report.xlsx" download="Impact Analysis Report">
+                <button id="iaReportBtn">IA Report</button>
+            </a> -->
+            <button id="detailedReport">Detailed Comparison Report</button>
+            <button id="iaReportBtn">IA Report</button>
+            <button id="testCasesBtn">Test Cases</button>
+        </div>
+        <!-- <script>
+        document.getElementById("detailedReport").onclick =function() {     window.open('comparisonReport.html','_blank'); }; 
+        </script> -->
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <!-- <script src="script1.js"></script>  -->
+</body>
+</html>

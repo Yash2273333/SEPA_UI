@@ -1,0 +1,129 @@
+﻿,Change Type,Element Path,Old Type,New Type,Annotation
+0,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/InstgAgt/FinInstnId,FinancialInstitutionIdentification7_EPC115-06_V1.0,FinancialInstitutionIdentification18_EPC115-06_2023_V1.0_SCT_InterPSP,
+1,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/Id,Party6Choice_EPC115-06_V1.0,Party38Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+2,Added,/Document/FIToFICstmrCdtTrf/GrpHdr/InstdAgt/FinInstnId/BICFI,,BICFIDec2014Identifier,
+3,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAgt/FinInstnId/BICFI,,BICFIDec2014Identifier,
+4,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/RmtInf/Strd,StructuredRemittanceInformation7_EPC115-06_V1.0,StructuredRemittanceInformation16_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+5,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/PmtId,PaymentIdentification3_EPC115-06_V1.0,PaymentIdentification7_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+6,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/Id/OrgId/AnyBIC,,AnyBICDec2014Identifier,
+7,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtCdtr/Id/OrgId/LEI,,LEIIdentifier,
+8,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/RmtInf,RemittanceInformation5_EPC115-06_V1.0,RemittanceInformation16_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+9,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAcct/Prxy/Tp/Prtry,,Max35Text,
+10,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAgt,BranchAndFinancialInstitutionIdentification4_EPC115-06_V1.0,BranchAndFinancialInstitutionIdentification6_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+11,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/PstCd,,Max16Text,Yellow Field
+12,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/Nm,Max140Text_EPC115-06_V1.0,Max140Text_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+13,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/Id/OrgId/AnyBIC,,AnyBICDec2014Identifier,
+14,Removed,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/Id/OrgId/BICOrBEI,AnyBICIdentifier,,
+15,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/PmtTpInf/SvcLvl/Cd,ExternalServiceLevel1Code_EPC115-06_V1.0,ExternalServiceLevel1Code_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+16,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/PmtTpInf/LclInstrm,LocalInstrument2Choice_EPC115-06_V1.0,LocalInstrument2Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+17,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/IntrBkSttlmAmt,ActiveCurrencyAndAmount_EPC115-06_V1.0_2,ActiveCurrencyAndAmount_EPC115-06_2023_V1.0_SCT_InterPSP_2,Yellow Field
+18,Removed,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAgt/FinInstnId/BIC,BICIdentifier,,
+19,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/Flr,,Max70Text,Yellow Field
+20,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/SttlmInf/ClrSys,ClearingSystemIdentification3Choice,ClearingSystemIdentification3Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+21,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/Dept,,Max70Text,Yellow Field
+22,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/Id/OrgId/LEI,,LEIIdentifier,
+23,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/Id,Party6Choice_EPC115-06_V1.0,Party38Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+24,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/Id/PrvtId/DtAndPlcOfBirth,DateAndPlaceOfBirth,DateAndPlaceOfBirth1,
+25,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtDbtr/Id/PrvtId,PersonIdentification5_EPC115-06_V1.0,PersonIdentification13_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+26,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAcct/Prxy/Tp,,ProxyAccountType1Choice,
+27,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtDbtr/Id/OrgId/AnyBIC,,AnyBICDec2014Identifier,
+28,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/StrtNm,,Max70Text,Yellow Field
+29,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/Id/OrgId,OrganisationIdentification4_EPC115-06_V1.0,OrganisationIdentification29_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+30,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtCdtr/Id/PrvtId/DtAndPlcOfBirth,DateAndPlaceOfBirth,DateAndPlaceOfBirth1,
+31,Removed,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAgt/FinInstnId/BIC,BICIdentifier,,
+32,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtDbtr/Id/OrgId,OrganisationIdentification4_EPC115-06_V1.0,OrganisationIdentification29_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+33,Modified,/Document/FIToFICstmrCdtTrf,FIToFICustomerCreditTransferV02_EPC115-06_V1.0,FIToFICustomerCreditTransferV08_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+34,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/PmtTpInf/CtgyPurp,CategoryPurpose1Choice,CategoryPurpose1Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+35,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/Dept,,Max70Text,Yellow Field
+36,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/Id/OrgId,OrganisationIdentification4_EPC115-06_V1.0,OrganisationIdentification29_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+37,Removed,/Document/FIToFICstmrCdtTrf/GrpHdr/InstgAgt/FinInstnId/BIC,BICIdentifier,,
+38,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/StrtNm,,Max70Text,Yellow Field
+39,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/SubDept,,Max70Text,Yellow Field
+40,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtDbtr/Id/OrgId/LEI,,LEIIdentifier,
+41,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/InstdAgt/FinInstnId,FinancialInstitutionIdentification7_EPC115-06_V1.0,FinancialInstitutionIdentification18_EPC115-06_2023_V1.0_SCT_InterPSP,
+42,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/PmtTpInf/SvcLvl,ServiceLevel8Choice_EPC115-06_V1.0,ServiceLevel8Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+43,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/TwnNm,,Max35Text,Yellow Field
+44,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAcct/Prxy/Tp/Cd,,ExternalProxyAccountType1Code,
+45,Removed,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/InstgAgt/FinInstnId/BIC,BICIdentifier,,
+46,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/TtlIntrBkSttlmAmt,ActiveCurrencyAndAmount_EPC115-06_V1.0,ActiveCurrencyAndAmount_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+47,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/InstgAgt,BranchAndFinancialInstitutionIdentification4_EPC115-06_V1.0,BranchAndFinancialInstitutionIdentification6_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+48,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/RmtInf/Strd/CdtrRefInf/Tp,CreditorReferenceType2_EPC115-06_V1.0,CreditorReferenceType2_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+49,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/TwnLctnNm,,Max35Text,Yellow Field
+50,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/SttlmInf,SettlementInformation13_EPC115-06_V1.0,SettlementInstruction7_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+51,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAcct/Id,AccountIdentification4Choice_EPC115-06_V1.0,AccountIdentification4Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+52,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/RmtInf/Strd/CdtrRefInf/Tp/CdOrPrtry,CreditorReferenceType1Choice_EPC115-06_V1.0,CreditorReferenceType1Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+53,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/DstrctNm,,Max35Text,Yellow Field
+54,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/SttlmInf/SttlmAcct,CashAccount16,CashAccount38_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+55,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/Room,,Max70Text,Yellow Field
+56,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAcct/Id,AccountIdentification4Choice_EPC115-06_V1.0,AccountIdentification4Choice_EPC115-06_2023_V1.0_SCT_InterPSP_2,Yellow Field
+57,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/TwnLctnNm,,Max35Text,Yellow Field
+58,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/InstdAgt/FinInstnId/BICFI,,BICFIDec2014Identifier,
+59,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/InstdAgt,BranchAndFinancialInstitutionIdentification4_EPC115-06_V1.0,BranchAndFinancialInstitutionIdentification6_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+60,Removed,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtDbtr/Id/OrgId/BICOrBEI,AnyBICIdentifier,,
+61,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAcct/Prxy/Id,,Max2048Text_EPC115-06_2023_V1.0_SCT_InterPSP,
+62,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAcct,CashAccount16_EPC115-06_V1.0,CashAccount38_EPC115-06_2023_V1.0_SCT_InterPSP_3,Yellow Field
+63,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAcct/Prxy,,ProxyAccountIdentification1_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+64,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAcct/Prxy/Tp/Prtry,,Max35Text,
+65,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr,PartyIdentification32_EPC115-06_V1.0_2,PartyIdentification135_EPC115-06_2023_V1.0_SCT_InterPSP_2,Yellow Field
+66,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAgt/FinInstnId,FinancialInstitutionIdentification7_EPC115-06_V1.0,FinancialInstitutionIdentification18_EPC115-06_2023_V1.0_SCT_InterPSP,
+67,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/BldgNb,,Max16Text,Yellow Field
+68,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/Id/PrvtId/DtAndPlcOfBirth,DateAndPlaceOfBirth,DateAndPlaceOfBirth1,
+69,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAcct,CashAccount16_EPC115-06_V1.0,CashAccount38_EPC115-06_2023_V1.0_SCT_InterPSP_2,Yellow Field
+70,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr,GroupHeader33_EPC115-06_V1.0,GroupHeader93_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+71,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtCdtr/Id/PrvtId,PersonIdentification5_EPC115-06_V1.0,PersonIdentification13_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+72,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtDbtr/Id,Party6Choice_EPC115-06_V1.0,Party38Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+73,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/DstrctNm,,Max35Text,Yellow Field
+74,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/TwnNm,,Max35Text,Yellow Field
+75,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/InstdAgt/FinInstnId,FinancialInstitutionIdentification7_EPC115-06_V1.0,FinancialInstitutionIdentification18_EPC115-06_2023_V1.0_SCT_InterPSP,
+76,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/CtrySubDvsn,,Max35Text,Yellow Field
+77,Removed,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtCdtr/Id/OrgId/BICOrBEI,AnyBICIdentifier,,
+78,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf,CreditTransferTransactionInformation11_EPC115-06_V1.0,CreditTransferTransaction39_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+79,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAgt/FinInstnId/BICFI,,BICFIDec2014Identifier,
+80,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/Id/OrgId/LEI,,LEIIdentifier,
+81,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/Flr,,Max70Text,Yellow Field
+82,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtCdtr,PartyIdentification32_EPC115-06_V1.0_4,PartyIdentification135_EPC115-06_2023_V1.0_SCT_InterPSP_4,Yellow Field
+83,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtCdtr/Nm,Max140Text_EPC115-06_V1.0,Max140Text_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+84,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAgt,BranchAndFinancialInstitutionIdentification4_EPC115-06_V1.0,BranchAndFinancialInstitutionIdentification6_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+85,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtCdtr/Id/OrgId,OrganisationIdentification4_EPC115-06_V1.0,OrganisationIdentification29_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+86,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/PmtTpInf,PaymentTypeInformation21_EPC115-06_V1.0,PaymentTypeInformation28_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+87,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/PstBx,,Max16Text,Yellow Field
+88,Removed,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/InstdAgt/FinInstnId/BIC,BICIdentifier,,
+89,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/BldgNm,,Max35Text,Yellow Field
+90,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAgt/FinInstnId,FinancialInstitutionIdentification7_EPC115-06_V1.0,FinancialInstitutionIdentification18_EPC115-06_2023_V1.0_SCT_InterPSP,
+91,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/BldgNb,,Max16Text,Yellow Field
+92,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Purp,Purpose2Choice_EPC115-06_V1.0,Purpose2Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+93,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtDbtr/Nm,Max140Text_EPC115-06_V1.0,Max140Text_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+94,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/InstgAgt/FinInstnId/BICFI,,BICFIDec2014Identifier,
+95,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/PmtTpInf/SvcLvl,ServiceLevel8Choice_EPC115-06_V1.0,ServiceLevel8Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+96,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtCdtr/Id,Party6Choice_EPC115-06_V1.0,Party38Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+97,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/InstdAgt,BranchAndFinancialInstitutionIdentification4_EPC115-06_V1.0,BranchAndFinancialInstitutionIdentification6_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+98,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/RmtInf/Strd/CdtrRefInf,CreditorReferenceInformation2_EPC115-06_V1.0,CreditorReferenceInformation2_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+99,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/Id/PrvtId,PersonIdentification5_EPC115-06_V1.0,PersonIdentification13_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+100,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr,PartyIdentification32_EPC115-06_V1.0_3,PartyIdentification135_EPC115-06_2023_V1.0_SCT_InterPSP_3,Yellow Field
+101,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/Nm,Max140Text_EPC115-06_V1.0,Max140Text_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+102,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr,PostalAddress6_EPC115-06_V1.0,PostalAddress24_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+103,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtDbtr/Id/PrvtId/DtAndPlcOfBirth,DateAndPlaceOfBirth,DateAndPlaceOfBirth1,
+104,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAcct/Prxy/Tp,,ProxyAccountType1Choice,
+105,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/PstBx,,Max16Text,Yellow Field
+106,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/InstgAgt,BranchAndFinancialInstitutionIdentification4_EPC115-06_V1.0,BranchAndFinancialInstitutionIdentification6_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+107,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/PstCd,,Max16Text,Yellow Field
+108,Modified,/Document,Document_EPC115-06_V1.0,Document_EPC115-06_2023_V1.0_SCT_InterPSP,
+109,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/InstgAgt/FinInstnId,FinancialInstitutionIdentification7_EPC115-06_V1.0,FinancialInstitutionIdentification18_EPC115-06_2023_V1.0_SCT_InterPSP,
+110,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAcct/Prxy/Tp/Cd,,ExternalProxyAccountType1Code,
+111,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/BldgNm,,Max35Text,Yellow Field
+112,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtCdtr/Id/OrgId/AnyBIC,,AnyBICDec2014Identifier,
+113,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/PstlAdr/CtrySubDvsn,,Max35Text,Yellow Field
+114,Modified,/Document/FIToFICstmrCdtTrf/GrpHdr/PmtTpInf/LclInstrm,LocalInstrument2Choice_EPC115-06_V1.0,LocalInstrument2Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+115,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/SubDept,,Max70Text,Yellow Field
+116,Removed,/Document/FIToFICstmrCdtTrf/GrpHdr/InstdAgt/FinInstnId/BIC,BICIdentifier,,
+117,Added,/Document/FIToFICstmrCdtTrf/GrpHdr/InstgAgt/FinInstnId/BICFI,,BICFIDec2014Identifier,
+118,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/CdtrAcct/Prxy,,ProxyAccountIdentification1_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+119,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr,PostalAddress6_EPC115-06_V1.0,PostalAddress24_EPC115-06_2023_V1.0_SCT_InterPSP_2,Yellow Field
+120,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/PmtTpInf/SvcLvl/Cd,ExternalServiceLevel1Code_EPC115-06_V1.0,ExternalServiceLevel1Code_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+121,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/PstlAdr/Room,,Max70Text,Yellow Field
+122,Removed,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Dbtr/Id/OrgId/BICOrBEI,AnyBICIdentifier,,
+123,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/UltmtDbtr,PartyIdentification32_EPC115-06_V1.0,PartyIdentification135_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+124,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/PmtTpInf,PaymentTypeInformation21_EPC115-06_V1.0,PaymentTypeInformation28_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+125,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/Cdtr/Id/PrvtId,PersonIdentification5_EPC115-06_V1.0,PersonIdentification13_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+126,Modified,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/PmtTpInf/CtgyPurp,CategoryPurpose1Choice,CategoryPurpose1Choice_EPC115-06_2023_V1.0_SCT_InterPSP,Yellow Field
+127,Added,/Document/FIToFICstmrCdtTrf/CdtTrfTxInf/DbtrAcct/Prxy/Id,,Max2048Text_EPC115-06_2023_V1.0_SCT_InterPSP,
